@@ -1,0 +1,100 @@
+{
+  "duration_seconds": 30,
+  "step_seconds": 2,
+  "multiplier": 2,
+  "initial_ops": 1000000,
+  "total_elapsed_ns": null,
+  "stages": [
+    {
+      "t": 0,
+      "target_ops": 1000000,
+      "completed_ops": 1000000,
+      "elapsed_ns": null
+    },
+    {
+      "t": 2,
+      "target_ops": 2000000,
+      "completed_ops": 2000000,
+      "elapsed_ns": null
+    },
+    {
+      "t": 4,
+      "target_ops": 4000000,
+      "completed_ops": 4000000,
+      "elapsed_ns": null
+    },
+    {
+      "t": 6,
+      "target_ops": 8000000,
+      "completed_ops": 8000000,
+      "elapsed_ns": null
+    },
+    {
+      "t": 8,
+      "target_ops": 16000000,
+      "completed_ops": 16000000,
+      "elapsed_ns": null
+    },
+    {
+      "t": 10,
+      "target_ops": 32000000,
+      "completed_ops": 32000000,
+      "elapsed_ns": null
+    },
+    {
+      "t": 12,
+      "target_ops": 64000000,
+      "completed_ops": 64000000,
+      "elapsed_ns": null
+    },
+    {
+      "t": 14,
+      "target_ops": 128000000,
+      "completed_ops": 128000000,
+      "elapsed_ns": null
+    },
+    {
+      "t": 16,
+      "target_ops": 256000000,
+      "completed_ops": 256000000,
+      "elapsed_ns": null
+    },
+    {
+      "t": 18,
+      "target_ops": 512000000,
+      "completed_ops": 512000000,
+      "elapsed_ns": null
+    },
+    {
+      "t": 20,
+      "target_ops": 1024000000,
+      "completed_ops": 1024000000,
+      "elapsed_ns": null
+    },
+    {
+      "t": 22,
+      "target_ops": 2048000000,
+      "completed_ops": 2048000000,
+      "elapsed_ns": null
+    },
+    {
+      "t": 24,
+      "target_ops": 4096000000,
+      "completed_ops": 4096000000,
+      "elapsed_ns": null
+    },
+    {
+      "t": 26,
+      "target_ops": 8192000000,
+      "completed_ops": 8192000000,
+      "elapsed_ns": null
+    },
+    {
+      "t": 28,
+      "target_ops": 16384000000,
+      "completed_ops": 16384000000,
+      "elapsed_ns": null
+    }
+  ],
+  "note": "elapsed_ns depende de executar zig/stress/algo.zig; zig n\u00e3o dispon\u00edvel neste ambiente"
+}
